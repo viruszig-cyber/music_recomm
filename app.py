@@ -27,7 +27,7 @@ st.text('Tinashe Zigara R207669D')
 
 selected_song = st.selectbox(
     'Pick a Song from the List', songs)
-if st.button('Recommend'):
+if st.button('Hit Me'):
     recommendation = recommend(selected_song)
     for i in recommendation:
         st.write(i)
