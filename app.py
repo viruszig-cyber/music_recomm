@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 
-songs_df = pickle.load(open('songs.pkl','rb'))
+songs_df = pickle.load(open('notebook\songs.pkl','rb'))
 songs = songs_df['name'].values
 
 dff = pickle.load(open('data.pkl','rb'))
