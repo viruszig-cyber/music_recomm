@@ -20,7 +20,7 @@ def recommend(song):
 
 
 st.title('Content-based Music Recommender System')
-st.text('Assignment 3')
+st.text('Assignment 2 Group')
 st.text('Craig Chipendo R204740C')
 st.text('Tinashe Zigara R207669D')
 
